@@ -1,0 +1,69 @@
+/* background */
+.topnav {
+  background-color: #262626;
+  overflow: hidden;
+  z-index: 2;
+  position: relative;
+}
+
+/* link style */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* link color hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* current link color */
+.topnav a.active {
+  background-color: #fca103;
+  color: #ddd;
+}
+
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+  url("sergeiforest.jpg");
+  height: 50%;
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+
+}
+
+
+
+
+
+.hero-text {
+  text-align: center;
+  posiiton: absolute;
+  text-transform: uppercase;
+  z-index: 0;
+  width: 100%;
+  color: #ddd;
+
+}
+
+
+
+
+
+
+ body {
+   background-color: #262626;
+ }

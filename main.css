@@ -1,6 +1,6 @@
 /* background */
 .topnav {
-  background-color: #262626;
+  background-color: transparent;
   overflow: hidden;
   z-index: 2;
   position: relative;
@@ -13,19 +13,13 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* link color hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* current link color */
-.topnav a.active {
-  background-color: #fca103;
-  color: #ddd;
+  color: orange;
 }
 
 body, html {
@@ -34,36 +28,83 @@ body, html {
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-  url("sergeiforest.jpg");
-  height: 50%;
+  url("jasonnyc.jpg");
+  height: 70%;
   width: 100%;
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
+  background-position: 100% 75%;
+  position: relative;
+
 
 }
-
-
-
-
 
 .hero-text {
   text-align: center;
-  posiiton: absolute;
-  text-transform: uppercase;
+  text-transform: none;
   z-index: 0;
   width: 100%;
-  color: #ddd;
-
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
 }
 
+.container {
+  float: right;
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
 
+h3{
+  position: relative;
+  top: 500px;
+  text-align: center;
+  text-transform: none;
+  z-index: 0;
+  width: 100%;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
 
+p{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 500px;
+  text-align: center;
+  text-transform: none;
+  z-index: 0;
+  width: 50%;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
 
+.contact{
+  position: relative;
+  top: 300px;
+  text-align: center;
+  text-transform: none;
+  z-index: 0;
+  width: 100%;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
 
+/*
+.projects {
+  postion: relative;
+  text-align: center;
+  top: 1000px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+*/
 
  body {
    background-color: #262626;
+   background: linear-gradient(180deg, #333333 25%, #595959 50%, #262626 50%);
+   padding: 0;
+   margin: 0;
  }

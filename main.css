@@ -30,8 +30,7 @@ body, html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
   url("jasonnyc.jpg");
   height: 70%;
-  width: 100%;
-
+  max-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,9 +80,9 @@ p{
   font-family: 'Open Sans', sans-serif;
 }
 
-.contact{
+.projects{
   position: relative;
-  top: 300px;
+  top: 130px;
   text-align: center;
   text-transform: none;
   z-index: 0;
@@ -92,19 +91,20 @@ p{
   font-family: 'Open Sans', sans-serif;
 }
 
-/*
-.projects {
-  postion: relative;
+.contact{
+  position: relative;
+  top: 260px;
   text-align: center;
-  top: 1000px;
+  text-transform: none;
+  z-index: 0;
+  width: 100%;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
 }
-*/
 
  body {
    background-color: #262626;
-   background: linear-gradient(180deg, #333333 25%, #595959 50%, #262626 50%);
+   background: linear-gradient(180deg, #333333 25%, #3F3F3F 25%, #595959 50%, #262626 50%);
    padding: 0;
    margin: 0;
  }

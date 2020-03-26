@@ -1,8 +1,9 @@
-body{
+body,html{
     margin: 0;
-    background-color: #FFC184;
+    background-color: #BCD8E4;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
+    height:100%;
 
 }
 
@@ -19,10 +20,6 @@ header::after {
   content: '';
   display: table;
   clear: both;
-}
-
-.Kevin{
-  float: left;
 }
 
 nav {
@@ -74,22 +71,22 @@ nav a:hover::before{
 }
 
 #section1{
-  height: 700px;
-  background: #FFC184;
+  height: 100%;
+  background: #BCD8E4;
   display:inline-block;
   width: 100%;
 }
 
 #section2{
-  height: 700px;
-  background: #FFC184;
+  height: 100%;
+  background: #86B2C5;
   display:inline-block;
   width: 100%;
 }
 
 #section3{
-  height: 700px;
-  background: #FFC184;
+  height: 100%;
+  background: #38718A;
   display:inline-block;
   width: 100%;
 }

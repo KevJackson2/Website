@@ -2,12 +2,44 @@
 url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display:400,600");
 
 
-body,html{
-    margin: 0;
+body, html{
     background-color: #86B2C5;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
+    padding: 0;
+    margin: 0;
     height:100%;
+}
+
+/*Global*/
+.container{
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+#homepage{
+  height: 100%;
+  background: #86B2C5;
+}
+
+#projects{
+  height: 100%;
+  background: #578AA0;
+}
+
+#contact{
+  height: 100%;
+  background: #38718A;
+}
+
+body .container h1{
+  color: #222;
+  margin: 100px;
+  padding: 0;
+  font-size: 2em;
 }
 
 header {
@@ -103,7 +135,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #C9C9C9;
+  color: #CFCECE;
 }
 
 .nav-toggle:checked ~ nav{
@@ -115,7 +147,7 @@ nav a:hover {
   transition: opacity 250ms ease-in-out 100ms;
 }
 
-/*hides on bigger diplays*/
+/*For tablets and phones*/
 @media screen and (min-width: 1000px){
   .nav-toggle-label{
     display: none;
@@ -153,50 +185,19 @@ nav a:hover {
     opacity: 1;
     position: relative;
   }
-
-nav a::before{
-  content: '';
-  display: block;
-  height: 5px;
-  background: #444;
-  position: absolute;
-  top: 1em;
-  left: 0;
-  right: 0;
-  transform: scale(0, 1);
-  transition: transform ease-in-out 250ms;
+  nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    background: #444;
+    position: absolute;
+    top: 1em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
 }
-
-nav a:hover::before{
-  transform: scale(1,1);
-}
-
-.section1{
-  height: 100%;
-  background: #86B2C5;
-  display:inline-block;
-  width: 100%;
-}
-
-.section2{
-  height: 100%;
-  background: #578AA0;
-  display:inline-block;
-  width: 100%;
-}
-
-.section3{
-  height: 100%;
-  background: #38718A;
-  display:inline-block;
-  width: 100%;
-}
-
-h1{
-  color: #222;
-  margin: 100px;
-  text-align: center;
-  padding: 0;
-}
-
-}
+/*linking hover to cheeseburger nav*/
+  nav a:hover::before{
+    transform: scale(1,1);
+  }

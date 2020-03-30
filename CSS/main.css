@@ -1,7 +1,6 @@
 @import
 url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display:400,600");
 
-
 body, html{
     background-color: #86B2C5;
     font-family: 'Roboto Condensed', sans-serif;
@@ -101,6 +100,13 @@ header {
   top: 7px;
 }
 
+/* Active nav link hover */
+.active{
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: .1px .1px #FFFFFF;
+}
+
 nav {
   position: absolute;
   text-align:left;
@@ -110,6 +116,7 @@ nav {
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
+  
   /*
   transition: transform 100ms ease-in-out;*/
 }

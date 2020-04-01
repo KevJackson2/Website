@@ -116,7 +116,6 @@ nav {
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
-  
   /*
   transition: transform 100ms ease-in-out;*/
 }

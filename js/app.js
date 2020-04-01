@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var scrollLink = $('.scroll');
+	  var scrollLink = $('.scroll');
 
   // Smooth scrolling
   scrollLink.click(function(e) {
@@ -16,7 +16,7 @@ $(document).ready(function() {
 
     scrollLink.each(function() {
 
-      var sectionOffset = $(this.hash).offset().top - 20;
+      var sectionOffset = $(this.hash).offset().top - 50;
 
       if ( sectionOffset <= scrollbarLocation ) {
         $(this).parent().addClass('active');
@@ -29,16 +29,3 @@ $(document).ready(function() {
 })
 
 //Navbar easy collapse
-
-function OnwindowClick(elem , action){
-    $(document).on('click',function(e){
-        if (!$(elem).is(e.target) // if target is not in container
-            && $(elem).has(e.target).length === 0) //
-        {
-            action();
-        }
-    });
-}
-OnwindowClick('#navbar-collapse-first , #navbar-collapse-second', function(){
-   $('.navbar-collapse-first, .navbar-collapse-second').collapse('hide');
-});

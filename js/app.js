@@ -21,11 +21,11 @@ $(document).ready(function() {
       if ( sectionOffset <= scrollbarLocation ) {
         $(this).parent().addClass('active');
         $(this).parent().siblings().removeClass('active');
-      }
+3      }
     })
 
   })
 
 })
 
-//Navbar easy collapse
+//Navbar hover

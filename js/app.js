@@ -1,8 +1,9 @@
-$(document).ready(function() {
+//jQuery
+$(document).ready(function(){
 
-	  var scrollLink = $('.scroll');
+		var scrollLink = $('.scroll');
 
-  // Smooth scrolling
+		// Smooth scrolling
   scrollLink.click(function(e) {
     e.preventDefault();
     $('body,html').animate({
@@ -21,11 +22,9 @@ $(document).ready(function() {
       if ( sectionOffset <= scrollbarLocation ) {
         $(this).parent().addClass('active');
         $(this).parent().siblings().removeClass('active');
-3      }
+      }
     })
 
   })
 
 })
-
-//Navbar hover

@@ -178,6 +178,7 @@ nav a:hover {
 }
 
 #resbut:hover{
+  border-top: 3px solid #bc487f;
   background-color:#bc487f;
 }
 
@@ -186,6 +187,15 @@ nav a:hover {
   bottom: -20em;
 }
 
+
+.copy{
+  position: relative;
+  font-size: .7em;
+  padding: .5em;
+  letter-spacing: 0.04em;
+  margin-bottom: auto;
+  text-align: center;
+}
 
 
 

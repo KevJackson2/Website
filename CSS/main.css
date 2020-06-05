@@ -193,14 +193,17 @@ textarea{
 }
 
 .button:hover{
-  background: #d45087;
+  background: #ff7c43;
 }
 
 .contactme{
   text-align: left;
 }
 
-
+a{
+  color: #ff7c43;
+  text-decoration: none;
+}
 
 /*For tablets and phones*/
 @media screen and (min-width: 760px){
@@ -239,24 +242,4 @@ textarea{
   nav a{
     opacity: 1;
     position: relative;
-  }
-
-/*
-  nav a::before{
-    content: '';
-    display: block;
-    height: 5px;
-    background: #444;
-    position: absolute;
-    top: 1em;
-    left: 0;
-    right: 0;
-    transform: scale(0, 1);
-    transition: transform ease-in-out 250ms;
-}
-*/
-
-/*linking hover to cheeseburger nav*/
-  nav a:hover::before{
-    transform: scale(1,1);
   }

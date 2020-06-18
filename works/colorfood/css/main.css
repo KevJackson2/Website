@@ -1,0 +1,95 @@
+@import
+url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display:400,600");
+
+body, html{
+  background-color: #e6e6e6;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header{
+  background: #e6e6e6;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+}
+
+
+
+.logo{
+  position: relative;
+  text-align: center;
+  font-size: 3em;
+  margin-top: auto;
+  bottom: -.5em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.boxred{
+  position: absolute;
+  top: 5.5vw;
+  width: 10em;
+  height: 90%;
+  background-color: #FF6663;
+}
+
+.boxorange{
+  position: absolute;
+  top: 5.5vw;
+  left: 10em;
+  width: 10em;
+  height: 90%;
+  background-color: #feb144;
+}
+
+.boxyellow{
+  position: absolute;
+  top: 5.5vw;
+  left: 20em;
+  width: 10em;
+  height: 90%;
+  background-color: #fdfd97;
+}
+
+.boxgreen{
+  position: absolute;
+  top: 5.5vw;
+  left: 30em;
+  width: 10em;
+  height: 90%;
+  background-color: #9ee09e;
+}
+
+.boxblue{
+  position: absolute;
+  top: 5.5vw;
+  left: 40em;
+  width: 10em;
+  height: 90%;
+  background-color: #9ec1cf;
+}
+
+.boxviolet{
+  position: absolute;
+  top: 5.5vw;
+  left: 50em;
+  width: 10em;
+  height: 90%;
+  background-color: #CC99C9;
+}

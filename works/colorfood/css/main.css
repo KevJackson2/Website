@@ -10,6 +10,7 @@ body, html{
 }
 
 .container{
+  display: block;
   height: 100%;
   width: 100%;
   margin: auto;
@@ -22,16 +23,33 @@ header{
   text-align: center;
   position: fixed;
   z-index: 999;
+
 }
 
+#color{
+  height: 100%;
+}
 
+#search{
+  height: 100%;
+  overflow: hidden;
+}
 
 .logo{
+  color: #222;
   position: relative;
   text-align: center;
-  font-size: 3em;
+  font-size: 1.5em;
   margin-top: auto;
-  bottom: -.5em;
+  text-decoration: none;
+}
+
+.logo:visited{
+  color: #222;
+}
+
+.logo:hover{
+  color: #222;
 }
 
 ul {
@@ -40,56 +58,79 @@ ul {
   list-style: none;
 }
 
-
 .boxred{
   position: absolute;
-  top: 5.5vw;
-  width: 10em;
-  height: 90%;
+  width: 16.7%;
+  height: 100%;
   background-color: #FF6663;
+  cursor: pointer;
+}
+
+.boxred:hover{
+  background-color: #f93644;
 }
 
 .boxorange{
   position: absolute;
-  top: 5.5vw;
-  left: 10em;
-  width: 10em;
-  height: 90%;
+  left: 16.7%;
+  width: 16.7%;
+  height: 100%;
   background-color: #feb144;
+  cursor: pointer;
+}
+
+.boxorange:hover{
+  background-color: #ff9230;
 }
 
 .boxyellow{
   position: absolute;
-  top: 5.5vw;
-  left: 20em;
-  width: 10em;
-  height: 90%;
+  left: 33.4%;
+  width: 16.7%;
+  height: 100%;
   background-color: #fdfd97;
+  cursor: pointer;
+}
+
+.boxyellow:hover{
+  background-color: #ffeb48;
 }
 
 .boxgreen{
   position: absolute;
-  top: 5.5vw;
-  left: 30em;
-  width: 10em;
-  height: 90%;
+  left: 50%;
+  width: 16.7%;
+  height: 100%;
   background-color: #9ee09e;
+  cursor: pointer;
+}
+
+.boxgreen:hover{
+  background-color: #97d151;
 }
 
 .boxblue{
   position: absolute;
-  top: 5.5vw;
-  left: 40em;
-  width: 10em;
-  height: 90%;
+  left: 66.6%;
+  width: 16.7%;
+  height: 100%;
   background-color: #9ec1cf;
+  cursor: pointer;
+}
+
+.boxblue:hover{
+  background-color: #1299e2;
 }
 
 .boxviolet{
   position: absolute;
-  top: 5.5vw;
-  left: 50em;
-  width: 10em;
-  height: 90%;
+  left: 83.3%;
+  width: 16.7%;
+  height: 100%;
   background-color: #CC99C9;
+  cursor: pointer;
+}
+
+.boxviolet:hover{
+  background-color: #9032d1;
 }

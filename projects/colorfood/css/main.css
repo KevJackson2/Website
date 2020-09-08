@@ -61,7 +61,7 @@ ul {
 .boxred{
   position: absolute;
   width: 16.7%;
-  height: 100%;
+  height: 120%;
   background-color: #FF6663;
   cursor: pointer;
 }
@@ -74,7 +74,7 @@ ul {
   position: absolute;
   left: 16.7%;
   width: 16.7%;
-  height: 100%;
+  height: 120%;
   background-color: #feb144;
   cursor: pointer;
 }
@@ -87,7 +87,7 @@ ul {
   position: absolute;
   left: 33.4%;
   width: 16.7%;
-  height: 100%;
+  height: 120%;
   background-color: #fdfd97;
   cursor: pointer;
 }
@@ -100,7 +100,7 @@ ul {
   position: absolute;
   left: 50%;
   width: 16.7%;
-  height: 100%;
+  height: 120%;
   background-color: #9ee09e;
   cursor: pointer;
 }
@@ -113,7 +113,7 @@ ul {
   position: absolute;
   left: 66.6%;
   width: 16.7%;
-  height: 100%;
+  height: 120%;
   background-color: #9ec1cf;
   cursor: pointer;
 }
@@ -126,7 +126,7 @@ ul {
   position: absolute;
   left: 83.3%;
   width: 16.7%;
-  height: 100%;
+  height: 120%;
   background-color: #CC99C9;
   cursor: pointer;
 }

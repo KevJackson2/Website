@@ -138,6 +138,18 @@ nav a:hover {
   bottom: -20em;
 }
 
+#memoji{
+  color:#222;
+  position: relative;
+  bottom: 2em;
+  font-style: italic;
+}
+
+#memoji:hover{
+  cursor: pointer;
+  text-decoration-color: #ffc684;
+}
+
 input[type=text],[type=email]{
   background-color: #153454;
   color: #e6e6e6;
@@ -201,13 +213,8 @@ button[type="submit"]:hover{
   text-align: left;
 }
 
-a{
-  color: #ffa600;
-  text-decoration: none;
-}
-
-a:hover{
-  color: #ffc684;
+.contactlinks{
+  color: #f45d5f;
 }
 
 /*For tablets and phones*/

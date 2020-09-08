@@ -17,6 +17,8 @@ a{
 a:hover{
   color: #ffc684;
   cursor: pointer;
+  -webkit-text-stroke-color: #222;
+  -webkit-text-stroke-width: 1px;
 }
 
 #emoji-container {

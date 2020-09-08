@@ -197,8 +197,8 @@ button[type="submit"]{
 }
 
 button[type="submit"]:hover{
-  background-color: #bc487f;
-  color: #e6e6e6;
+  background-color: #ffc684;
+  color: #222;
 }
 
 a{
@@ -208,6 +208,8 @@ a{
 a:hover{
   color: #ffc684;
   cursor: pointer;
+  -webkit-text-stroke-color: #222;
+  -webkit-text-stroke-width: .5px;
 }
 
 .contactme{

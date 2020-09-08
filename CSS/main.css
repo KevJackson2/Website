@@ -139,15 +139,9 @@ nav a:hover {
 }
 
 #memoji{
-  color:#222;
   position: relative;
   bottom: 2em;
   font-style: italic;
-}
-
-#memoji:hover{
-  cursor: pointer;
-  text-decoration-color: #ffc684;
 }
 
 input[type=text],[type=email]{
@@ -207,6 +201,14 @@ button[type="submit"]:hover{
   color: #e6e6e6;
 }
 
+a{
+  color: #222;
+  text-decoration: none;
+}
+a:hover{
+  color: #ffc684;
+  cursor: pointer;
+}
 
 .contactme{
   position: relative;

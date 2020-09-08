@@ -141,7 +141,7 @@ nav a:hover {
 #memoji{
   position: relative;
   bottom: 2em;
-  font-style: italic;
+  letter-spacing: 2px;
 }
 
 input[type=text],[type=email]{

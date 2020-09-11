@@ -138,11 +138,6 @@ nav a:hover {
   bottom: -20em;
 }
 
-#memoji{
-  position: relative;
-  bottom: 2em;
-  letter-spacing: 2px;
-}
 
 input[type=text],[type=email]{
   background-color: #153454;
@@ -205,12 +200,6 @@ a{
   color: #222;
   text-decoration: none;
 }
-a:hover{
-  color: #ffc684;
-  cursor: pointer;
-  -webkit-text-stroke-color: #222;
-  -webkit-text-stroke-width: .5px;
-}
 
 .contactme{
   position: relative;
@@ -221,12 +210,41 @@ a:hover{
   color: #f45d5f;
 }
 
+.memojicard{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 0px 40%;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.memojicard:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardcontainer{
+  width: 100%;
+  background-color: #ccc;
+  justify-content: center;
+}
+
+.indulgecard{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 0px 40%;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.indulgecard:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 /*For tablets and phones*/
-@media screen and (min-width: 760px){
+@media screen and (min-width: 800px){
   .nav-toggle-label{
     display: none;
   }
-
+/*For smaller displays*/
 
   header{
     display: grid;

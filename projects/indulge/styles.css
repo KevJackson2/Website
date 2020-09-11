@@ -1,0 +1,77 @@
+@import
+url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display:400,600");
+
+
+body{
+  margin: 5%;
+  background-color: #e6e6e6;
+  font-family: 'Roboto Condensed', sans-serif;
+  display: grid;
+  justify-content: center;
+}
+
+.title {
+  color: #222;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.entry-textbox{
+  background-color: #153454;
+  color: #e6e6e6;
+  width: 20em;
+  height: 10em;
+  padding: 1em;
+  margin-bottom: 0.5em;
+  border: unset;
+  border-radius: 25px;
+  resize: none;
+}
+
+::placeholder{
+  color: #e6e6e6;
+}
+
+.entry-textbox:focus{
+  outline: none;
+  box-shadow: 0px 0px 2px #000;
+}
+
+#entryForm .button{
+  background-color: #bc487f;
+  color: #e6e6e6;
+  cursor: pointer;
+  border: unset;
+  border-radius: 25px;
+  padding: 5px 16px;
+  margin-left: 76%;
+}
+
+#entryForm .dltButton{
+  background-color: #bc487f;
+  color: #e6e6e6;
+  cursor: pointer;
+  border: unset;
+  border-radius: 25px;
+  padding: 5px 18px;
+  margin-left: 76%;
+  margin-top: 2.5%;
+}
+
+#entries{
+  background: #ffc684;
+  color: #222;
+  padding: 2em;
+  max-width: 20em;
+  border: unset;
+  border-radius: 25px;
+  margin-top: 1em;
+}
+
+.entries-nav{
+  padding-bottom: 1em;
+}
+
+.display-entry-button:hover{
+  cursor: pointer;
+}
